@@ -10,9 +10,9 @@ import org.apache.commons.dbcp2.BasicDataSource;
 public class DbProducer {
 	
 	public static final String DRIVER_CLASS = "org.postgresql.Driver";
-	public static final String URL = "jdbc:postgresql://localhost:5432/distribuida";
-	public static final String USER = "postgres";
-	public static final String PASS = "postgres";
+	public static final String URL = "jdbc:postgresql://localhost:5432/distri";
+	public static final String USER = "usuario";
+	public static final String PASS = "1234";
 	
 	@ApplicationScoped
 	@Produces
